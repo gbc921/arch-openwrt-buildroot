@@ -1,5 +1,5 @@
 # Basic Arch Linux based OpenWrt buildroot image
-FROM base/archlinux
+FROM archlinux:latest
 
 MAINTAINER Jannis Pinter <jannis@pinterjann.is>
 
