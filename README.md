@@ -1,7 +1,5 @@
 Arch Linux based OpenWrt Buildroot
 ==================================
-[![Docker Build Status](http://hubstatus.container42.com/jannispinter/arch-openwrt-buildroot)](https://registry.hub.docker.com/u/jannispinter/arch-openwrt-buildroot)
-[![GitHub license](https://img.shields.io/github/license/mashape/apistatus.svg?style=flat-square)]()
 
 This is an Arch Linux based docker container for the OpenWrt buildroot.
 
@@ -13,7 +11,7 @@ The buildroot can be found in `/home/openwrt/openwrt`.
 ## Installation
 ### Clone this repository
 ```sh
-git clone https://github.com/jannispinter/arch-openwrt-buildroot.git
+git clone https://github.com/gbc921/arch-openwrt-buildroot.git
 ```
 ### Build the docker image
 ```sh
@@ -38,7 +36,7 @@ docker run -i -t arch-openwrt-buildroot:trunk
 ```sh
 make menuconfig
 ```
-Follow the official OpenWrt Buildroot instructions: http://wiki.openwrt.org/doc/howto/build
+Follow the official OpenWrt Buildroot instructions: https://openwrt.org/docs/guide-developer/toolchain/use-buildsystem
 
 ### Copy OpenWrt images to host system
 You can use `docker cp` to copy the binary image out of the container to your host system.
